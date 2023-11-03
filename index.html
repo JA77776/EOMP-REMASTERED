@@ -1,250 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap/link -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <!-- Css/Stylesheet -->
-    <link rel="stylesheet" href="./css/style.css">
 
-    <title>My Portfolio</title>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap/link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!-- Css/Stylesheet -->
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+  <title>My Portfolio</title>
 </head>
 
 
 
 <body>
-    <!-- navbar -->
-    <nav class="navbar bg-body-tertiary fixed-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <!-- logo -->
-            <img src="https://i.postimg.cc/cJscgf5r/i.webp" class="img-thumbnail" alt="logo">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-       
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">About</a>
-                </li>
-       
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Education</a>
-                </li>
-       
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Skills</a>
-                </li>
-       
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Projects</a>
-                </li>
-       
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Testimonials</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Contact</a>
-                </li>
-       
-              <form class="d-flex mt-3" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-              </form>
-            </div>
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Your Portfolio</title>
+      <link rel="stylesheet" href="style.css">
+      <!-- Add Bootstrap CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  </head>
+  <body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Jaydonn Hendricks</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                  <a class="nav-link" href="#about">About Me</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#education">My Education</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#skills">My Skills</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#testimonials">Testimonials</a>
+              </li>
+          </ul>
+      </div>
+  </nav>
+  <!-- Landing Page -->
+  <header class="jumbotron jumbotron-fluid bg-primary text-white text-center">
+      <div class="container">
+          <h1 class="display-4">Hello, I'm Jay-donn Hendricks</h1>
+          <p class="lead">Aspiring Web Developer</p>
+      </div>
+  </header>
+  <!-- About Section -->
+  <section id="about" class="py-5">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-6">
+                  <h2>About Me</h2>
+                  <p class="try">I'm a 23-year-old web developer with a passion for crafting digital experiences. I thrive on turning ideas into interactive and visually appealing websites. With a love for coding and a creative flair, I'm constantly exploring new technologies to stay at the forefront of web development. Let's bring your digital visions to life!</p>
+              </div>
+              <div class="col-md-6">
+                  <img src="https://i.postimg.cc/3JPj4m4w/IMG-20231029-WA0067.jpg" alt="Jay-donn Hendricks" class="img-fluid rounded-circle">
+              </div>
           </div>
-        </div>
-      </nav>
-
-      <!-- main / sections -->
-
-      <main class="container-fluid text-center align-content-center justify-content-center">
-        <section class="container" id="Home">
-            <!-- circles -->
-            <div class="circle1"></div>
-            <div class="circle2"></div>
-
-            <div class="row vh-100 align-content-center justify-content-center">
-                <h1 class="glass">WELCOME TO MY PORTFOLIO
-                </h1>
-            </div>
-
-            <!-- About -->
-        </section>
-        <section class="container text-center " id="About" >
-            <div class="row vh-100 ">
-                <h2 class="">ABOUT</h2>
-                <img src="https://i.postimg.cc/sxP9dbb6/IMG-20231029-WA0065.jpg" alt="Jay-donn" class="img-thumbnail" id="photo">
-            </div>
-        </section>
-
-        <!-- Education -->
-        <section class="container text-center " id="Education" >
-            <div class="row vh-100 ">
-                <h2 class="">EDUCATION
-                    <span></span>
-                </h2>
-            </div>
-        </section>
-
-        <!-- Skills -->
-        <section class="container text-center " id="Skills" >
-            <div class="row vh-100 ">
-                <h2 class="">SKILLS
-                    <span></span>
-                </h2>
-            </div>
-        </section>
-        
-        <!-- Projects -->
-        <section class="container text-center row align-content-center justify-content-center align-items-center gap-3 w-100 h-100  " id="Projects" >
-            <div class="row vh-100 ">
-                <h2 class="">PROJECTS</h2>    
-            </div>
-
-            <!-- placeholder1 -->
-            <div class="row">
-            <div class="card ">
-                <img src="https://storage.googleapis.com/pai-images/ca528e0c0c564ab3b64c1bf976035722.jpeg" class="card-img-top" alt="image1">
-                
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
+      </div>
+  </section>
+  <!-- Education & Skills Section -->
+  <section id="education" class="py-5">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-6">
+                  <h2>Education</h2>
+                  <ul>
+                      <li>Academy, Skill, Graduation Year</li>
+                      <li>Academy, Skill, In progress...</li>
+                      <!-- Add your educational details here -->
+                      <li>Chrysalis Academy, Youth Development, 2020</li>
+                      <li>Life Choices Academy, Full-stack Development, 2023-2024</li>
+                  </ul>
               </div>
-              <!-- placeholder2 -->
-                              <div class="card">
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy3Oq5Yb3gfNFJrxz4YHbs3nzmkQ053OqRCLi4GI6lbX1SkhH6IGRELfRvEjhu3Qil77c&usqp=CAU" class="card-img-top" alt="image1">
-                            
-                                <div class="card-body">
-                                  <h5 class="card-title">Card title</h5>
-                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                                </div>
-                              </div>
-                                        <!-- placeholder3 -->
-                                            <div class="card">
-                                              <img src="https://i.pinimg.com/736x/76/fc/94/76fc943590405f9e25124acfa38839db.jpg" class="card-img-top" alt="image1">
-                                            
-                                              <div class="card-body">
-                                                <h5 class="card-title">Card title</h5>
-                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                                              </div>
-                                            </div>
-                            <!-- placeholder4 -->
-                              <div class="card">
-                                <img src="https://media.tenor.com/T1Dy8d1N4_4AAAAC/nissan-gt-r35.gif" class="card-img-top" alt="image1">
-                            
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                                </div>
-                              </div>
-                              <!-- placeholder5 -->
-              <div class="card">
-                <img src="https://img.freepik.com/premium-photo/purple-car-with-neon-lights-license-plate-that-says-gtr_534373-1304.jpg?size=626&ext=jpg&ga=GA1.1.386372595.1698278400&semt=ais" class="card-img-top" alt="image1">
-              
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
+              <div class="col-md-6">
+                  <h2>Skills</h2>
+                  <ul>
+                      <li>Web Development</li>
+                      <li>HTML, CSS, Bootstrap</li>
+                      <!-- <li>Bootstrap, React, etc.</li> -->
+                      <!-- Add your skills here -->
+                  </ul>
               </div>
-            </div>
-            </section>
-
-        <!-- Testimonials -->
-        <section class="container text-center " id="Testimonials" >
-            <div class="row vh-100 ">
-                 <h2 class="">TESTIMONIALS
-                    <span></span>
-                </h2>
-            </div>
-        </section>
-
-        <!-- Contact -->
-        <section class="container text-center " id="Contact" >
-            <div class="row vh-100 ">
-                <h2 class="">CONTACT</h2>
-                <div class="container1">
-                    <div class="content">
-                        <div class="left-side">
-                            <div class="address details">
-                          <i class="fas fa-map-marker-alt"></i>
-                          <div class="topic">Address</div>
-                          <div class="text-one">Belhar Extention 13</div>
-                          <div class="text-two">Berkeley 05</div>
-                        </div>
-                        <div class="phone details">
-                          <i class="fas fa-phone-alt"></i>
-                          <div class="topic">Phone</div>
-                          <div class="text-one">+2771 264 5690</div>
-                          <div class="text-two">+2764 198 7062</div>
-                        </div>
-                        <div class="email details">
-                          <i class="fas fa-envelope"></i>
-                          <div class="topic">Email</div>
-                          <div class="text-one">jaydonnhendricks09@gmail.com</div>
-                          <div class="text-two">hjaydonn@gmail.com</div>
-                        </div>
+          </div>
+      </div>
+  </section>
+  <!-- Testimonial Section -->
+  <section id="testimonials" class="bg-light py-5">
+      <div class="container">
+          <h2 class="text-center">Testimonials</h2>
+          <div class="row">
+              <div class="col-md-4">
+                  <div class="card">
+                      <div class="card-body">
+                          <p class="card-text">Jay-donn Hendricks has a positive attitude and willingness to keep on learning about this journey we are on. I have no doubt that he will continue to excel in his future endeavors and I highly recommend him to any interested employer.  The energy he brings keeps on inspiring me and many others</p>
                       </div>
-                      <div class="right-side">
-                        <div class="topic-text">Message me</div>
-                        <p>If you have any other questions regarding my portfolio or any other work related questions on my projects then mess...</p>
-                      <form action="#">
-                        <div class="input-box">
-                          <input type="text" placeholder="Enter your name">
-                        </div>
-                        <div class="input-box">
-                          <input type="text" placeholder="Enter your email">
-                        </div>
-                        <div class="input-box message-box">
-                          
-                        </div>
-                        <div class="button">
-                          <input type="button" value="Send Now" >
-                        </div>
-                      </form>
-                    </div>
-                    </div>
+                      <div class="card-footer">
+                          <cite class="d-block text-right">Ethan Oliver</cite>
+                      </div>
                   </div>
-            </div>
-        </section>
-      </main>
+              </div>
+              <div class="col-md-4">
+                  <div class="card">
+                      <div class="card-body">
+                          <p class="card-text">I'm pleased to provide a testimonial for Jay-donn, an inspiring and hardworking aspiring web developer. He is not only dedicated to their craft but also a joy to work with. Their passion for web development is infectious, and they consistently go above and beyond to support their colleagues. He is an exceptional asset to any project or team, and I have no doubt that they will achieve great success in their web development journey.</p>
+                      </div>
+                      <div class="card-footer">
+                          <cite class="d-block text-right">Muttaqeen Slamat</cite>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="card">
+                      <div class="card-body">
+                          <p class="card-text">What impressed me most about Jay-doon was his ability to adapt and find innovative solutions to any challenges that arose during the project. They were always proactive in addressing issues and consistently met deadlines, ensuring that our website was launched on time.</p>
+                      </div>
+                      <div class="card-footer">
+                          <cite class="d-block text-right">Carl James</cite>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- Bootstrap/Script -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <!-- Bootstrap/Script -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 </body>
+<!-- footer -->
+
+<footer class="container-fluid " id="foot">
+  <p>
+    Copyright &copy; Jay-donn Hendricks @2023
+  </p>
+</footer>
+
 </html>
